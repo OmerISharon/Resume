@@ -1,0 +1,46 @@
+.Header {
+    padding-left: 20px;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    clear: both;
+    display: flex;
+    color: white; 
+    background-color:#143753;
+    height: 100%;
+    padding-bottom: 0px;
+    font-family: "Bahnschrift";
+}
+
+.Header > .Contact {
+    position: absolute;
+    right: 50%;
+}
+
+.Header > .Contact > p > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.Header > div > p {
+    font-weight: 400;
+}
+
+.Header img {
+    border-radius: 30px;
+    border: 2px solid #ddd;
+    width: 130px; 
+    position: absolute; 
+    right: 0.5%;
+    top: 5;
+    object-fit: cover;
+    display: block;
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.Header > h3 {
+    margin-top: -15px;
+}

@@ -1,0 +1,32 @@
+.Menu {
+	display: flex;
+    flex-direction: column;
+}
+
+.Menu > a {
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.active {
+    color: #006ac0;
+    font-size: larger;
+    position: relative;
+}
+
+.Menu > .General {
+    padding-left: 20px;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    display: table-cell;
+    color: white; 
+    background-color:#143753;
+    font-family: "Bahnschrift";
+    border-bottom: 2px solid black;
+}
+.Menu > .General > p {
+    font-weight: 100;
+}
+
