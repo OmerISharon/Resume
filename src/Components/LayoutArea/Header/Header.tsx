@@ -7,7 +7,7 @@ function Header(): JSX.Element {
             <h1>Resume - Omer Sharon</h1>
             <h3>Front-End Developer</h3>
 
-            <img src={ProfilePicture} alt="myProfile" />
+            {/* <img src={ProfilePicture} alt="myProfile" /> */}
 {/* 
             <div className="General">
                 <p>birth Birthdate: <i>19, April, 1995</i></p>
